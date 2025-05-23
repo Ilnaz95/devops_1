@@ -5,4 +5,5 @@
 3. Скрипт запускается раз в минуту cron-задачей (файл minibaev).
 4. Используется json-формат и библиотека jq:
    curl -s https://wttr.in/${CITY}?format=j1 | jq '.["current_condition"][0] | .temp_C, .humidity'
+5. '1 lab result.PNG' - результат работы.
    
